@@ -76,7 +76,7 @@ elif app_mode == "Disease Recognition":
     
     if st.button("Predict"):
         st.snow()
-        st.write("Analyzing...")
+        st.write("Our Prediction")
         result_index = model_prediction(test_image)
 
         class_name = [
